@@ -20,4 +20,6 @@ const useGames = (selectedGenre: Genre | null) =>
     selectedGenre?.id,
   ])
 
+  const testingGit = () => console.log('works')
+
 export default useGames
